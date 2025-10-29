@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Star19 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai n: ");
+        int n = sc.nextInt(); // variabel harus sama dengan yang digunakan di for
+
+        for (int i = 1; i <= n; i++) {
+            System.out.print("*"); // tanpa 's:'
+        }
+
+        sc.close();
+    }
+}
